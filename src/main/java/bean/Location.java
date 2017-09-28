@@ -76,4 +76,9 @@ public class Location {
     public void setIsz(String isz) {
         this.isz = isz;
     }
+
+    @Override
+    public String toString() {
+        return "[id="+this.id+", pid="+this.pid+",name="+this.name+"]";
+    }
 }

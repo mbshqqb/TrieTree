@@ -14,7 +14,7 @@ public class TrieLocationUtils {
     private List<String> wordList;
     public static void main(String[] args) throws IOException {
         TrieLocationUtils trieLocationUtils=new TrieLocationUtils("/test.csv");
-//        trieLocationUtils.dat.commonPrefixSearch()
+        System.out.println(trieLocationUtils.wordList.get(trieLocationUtils.dat.commonPrefixSearch("").get(0)));
 //        trieLocationUtils.getLocation();
     }
     public Location getLocation(String path){
